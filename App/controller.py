@@ -52,8 +52,11 @@ def loadTags(filename):
     return tags
 
 
-def loadBooksTags(catalog):
-    """
-    TODO futuro laboratorios
-    """
-    pass
+def loadBooksTags(filename):                 #Funcion agregada
+    '''
+    Bookstagfile es la variable en donde se guarda la direccion del archivo
+    CSV. Se cargan los BooksTags
+    '''
+    Bookstagsfile= cf.data_dir + filename
+    return model.addbooktags(Bookstagsfile)
+    
