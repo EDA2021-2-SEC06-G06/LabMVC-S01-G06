@@ -1,3 +1,7 @@
+Carlos Arturo Holguín Cárdenas - c.holguinc - 202012385
+Daniel Hernández Pineda - d.hernandez24 - 202013995
+
+
 #ISIS1225 - Estructura de un proyecto
 
 Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.
