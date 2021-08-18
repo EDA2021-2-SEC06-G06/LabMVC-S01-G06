@@ -29,7 +29,6 @@ import csv
 El controlador se encarga de mediar entre la vista y el modelo.
 """
 
-
 def loadBooks(filename):
     """
     Carga los libros del archivo.  Por cada libro se toman sus autores y por
@@ -53,10 +52,10 @@ def loadTags(filename):
 
 
 def loadBooksTags(filename):                 #Funcion agregada
-    '''
+    """
     Bookstagfile es la variable en donde se guarda la direccion del archivo
     CSV. Se cargan los BooksTags
-    '''
+    """
     Bookstagsfile= cf.data_dir + filename
     return model.addbooktags(Bookstagsfile)
     

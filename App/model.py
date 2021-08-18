@@ -72,6 +72,7 @@ def createTagList():
     taglist = lt.newList(datastructure='SINGLE_LINKED')
     return taglist
 
+
 def addbooktags(Bookstagsfile):             #Funcion agregada
     """
     Para guarda el archivo CSV, se crea un tipo de lista
